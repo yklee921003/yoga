@@ -1,5 +1,5 @@
 body {
-	background-color:#3F2860
+	background-color:#3F2860;
 	color:  #40407A;
 	font-family:Verdana,sans-serif;
 	margin:auto;
@@ -7,7 +7,7 @@ body {
 header{
 	background-color: #80CBC4;
 	height: 150px;
-	width: 100%;
+	/*width: 100%;*/
 	background-image: url("yogaimg/lilyheader.jpg");
 	background-repeat: no-repeat;
 	background-position: right top;
@@ -56,9 +56,10 @@ footer{
 	text-align: center;
 }
 .yogadoor{
-	align: right;
+
 	padding-right: 1em;
 	padding-left: 1em;
+	
 }
 
 /*Classes page*/
