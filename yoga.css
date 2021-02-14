@@ -1,3 +1,6 @@
+*{
+	box-sizing: border-box;
+}
 body {
 	background-color:#3F2860;
 	color:  #40407A;
@@ -17,6 +20,8 @@ main{
 	padding-left: 2em;
 	padding-right: 2em;
 	display: block;
+	margin-left: 170px;
+	padding-top: 1em;
 }
 h1{ 
 	
@@ -27,8 +32,33 @@ h1{
 }
 nav{
 	padding: 1em;
+	float: left;
+	width: 160px;
+	font-weight: bold;
+}
+
+nav a {
+	text-decoration: none;
+	display: block;
 	text-align: center;
 	font-weight: bold;
+	border: 3px outset #cccccc;
+	padding: 1em;
+	margin-bottom: 1em;
+}
+
+nav a:link {
+	 color: #3F2860; 
+	}
+nav a:visited { 
+	color: #497777;
+ }
+nav a:hover { 
+	color: #A26100; border: 3px inset #333333; 
+}
+nav ul {
+	list-style-type: none;
+	padding-left: 0;
 }
 a{
 	text-decoration:none;
@@ -46,21 +76,17 @@ footer{
 }
 
 #wrapper{
-	min-width: 1000px;
-	max-width: 1280px;
+	min-width: 1200px;
+	max-width: 1480px;
 	background-color:#F5F5F5;
 	margin-bottom: 10%;
 	text-align:start;
 }
 #hero{
-	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
-.yogadoor{
 
-	padding-right: 1em;
-	padding-left: 1em;
-	
-}
 
 /*Classes page*/
 .yogamat{
@@ -74,4 +100,41 @@ footer{
 	
 	padding-right: 1em;
 	padding-left: 1em;
+}
+
+.floatleft{
+	float: left;
+	margin-right: 4em;
+	margin-bottom: 1em;
+}
+
+.clear{
+clear: both;
+}
+
+.onehalf{
+	float: left;
+	width: 50%;
+	padding-right: 2em;
+	padding-left:2em;
+}
+.onethird{
+	float: left;
+	width: 33%;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+header a{
+	text-decoration: none;
+}
+
+header a:link{
+	color: #40407A;
+}
+header a:visited{
+	color: #40407A;
+}
+header a:hover{
+	color:#FFFFFF
 }
