@@ -10,7 +10,6 @@ body {
 header{
 	background-color: #80CBC4;
 	height: 150px;
-	/*width: 100%;*/
 	background-image: url("yogaimg/lilyheader.jpg");
 	background-repeat: no-repeat;
 	background-position: right top;
@@ -76,6 +75,7 @@ footer{
 }
 
 #wrapper{
+	width: 80%;
 	min-width: 1200px;
 	max-width: 1480px;
 	background-color:#F5F5F5;
