@@ -148,9 +148,34 @@ nav li {
 	#desktop {
 		display: none;
 	}
-
-
-
+	.tableTitle{
+		text-align: center;
+	}
+	table{
+		margin: auto;
+		width: 60%;
+		border: 1px; 
+		border-color: #3F2860;
+		border-collapse: collapse;
+		margin-bottom: 1em;
+	}
+	td {
+		padding: 5px;
+		border: 1px solid #3F2860;
+	
+	}
+	th {
+		padding: 5px;
+		border: 1px solid #3F2860;
+	}
+	tr:nth-of-type(even) {
+		background: #DBE8E9;
+		}
+	caption{
+		   margin: 1em;
+		   font-weight: bold;
+		   font-size: 120%;
+		}
 
 	@media screen and (min-width:600px) {
 		nav ul {
